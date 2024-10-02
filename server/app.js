@@ -12,8 +12,8 @@ conexao.on('error', (erro) => {
 
 conexao.once('open', () => {
     console.log('Conectado ao MongoDB')
-})
+})                                                                           -                                                                                                                                                                                                                                                                                                                                                           
 
 app.listen(3000, () => {
     console.log('Servidor conectado')
-})
+}) 
